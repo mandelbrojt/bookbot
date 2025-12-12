@@ -11,5 +11,5 @@ def count_characters(book_text):
         for char in book_text.lower():
             if char == item:
                 count += 1
-        char_counts[item] = char_count
+        char_counts[item] = count
     return char_counts
